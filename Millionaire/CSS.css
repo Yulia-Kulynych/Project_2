@@ -1,0 +1,9 @@
+body{
+	text-align: center;
+	align-items: left;
+	margin: 50px;
+	background-color: grey;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	color: white
+}
