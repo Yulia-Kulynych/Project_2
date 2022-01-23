@@ -1,0 +1,61 @@
+
+
+.calc {
+	margin: 50px auto;
+	width: 300px;
+	height: 500px;
+	border-radius: 20px;
+	background: #000;
+	color: white;
+	font-family: Arial;
+	padding: 18px;
+	
+}
+.calc-screen{
+	
+	height: 125px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;/*опустить вниз*/
+	justify-content: flex-end;/*прижать вправо*/
+  }
+  
+  p {
+	font-size: 3rem;
+	margin:0;
+}
+.buttons {
+	padding: 15px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap:10px;
+	
+}
+.btn {
+	width: 60px;
+	height: 60px;
+	background: grey;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.5rem;
+	
+	user-select:none;
+
+}
+.btn.zero{
+	border-radius: 34px;
+	width: 48%;
+}
+
+.btn.bg-grey {
+	background:  grey;
+}
+.btn.bg-orange {
+	background:  orange;
+}
+
+
